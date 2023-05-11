@@ -7,9 +7,9 @@ package demo;
 	public class log {
 		private static final  Logger LogJava= Logger.getLogger(log.class);
 		
-		public static String debug() {
+		public static void debug() {
 			LogJava.debug(" mensaje de debug ");
-			return null;
+			
 			
 		}
 		
